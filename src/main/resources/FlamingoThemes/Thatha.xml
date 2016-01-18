@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+ *
+-->
+
+<xwikidoc version="1.1">
+  <web>FlamingoThemes</web>
+  <name>Thatha</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1434934114000</creationDate>
+  <parent>FlamingoThemes.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1434934114000</date>
+  <contentUpdateDate>1434934114000</contentUpdateDate>
+  <version>10.1</version>
+  <title>Thatha</title>
+  <comment>Copied from souswikitest:FlamingoThemes.Revolution</comment>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <content/>
+  <attachment>
+    <filename>logo.png</filename>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1434061760000</date>
+    <version>1.2</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAAKAAAABLCAYAAAD3TIxsAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMS8wNi8xNTgadlgAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAALHElEQVR4nO1d7ZXbOg69E+7/cQdRB+OtIHwVxB3EqWC9FaxfBXEqGE0HTgWPqWCdDjQdeApAvD8E2jQFUtT37Hm85/iMRVIgCIMgCEKah8vlgoyMpfBhaQYy/t7ICpixKLICZiyKrIAZiyIrYMaiyAqYsSiyAmYsiqyAGYsiK2DGosgKmLEosgJmLIqsgBmLIitgxqLICpixLC6XS+/PWCCigogqIroQ0X40whmTYoju2M8/pmCMiAoABYCTUuqccEsB4CN/11P0Q0QrAGsAZ6XUKbUPgY7lL3VsEo0CNd+VUqqK9aOUMgn01gBWQ3hyaCXJiYj079+/oZQyg4zR2BaQiPZsyS5EdCaibRsPRKSde0wK30RUev2sI21X3ObS18oyjZND45IyNoFO4fGyEdoYp75sobfx5FB05cmhtfbGeAi0O7q/1yAdGlMBWbgX4bNtGXgnBfSUz36is9Vr29lKENFO6LPqQefg0TBefUOGLfSM137flSemo72JEezbbzNEh8behBSB8mdppjvQqR3wrPwiVD2l0gDwGLOYAUj8f+xhcXw6/mRo0Bti1VLABuIvAI9e1c8p+wVG3gWzv/IWqC57/Oh3YEH9K1D9ErlVso6xCSHhU6BcpxJgRfroFZuEWwf5dTHwEv8sVP0CsJ2qX4spwjDbQPkjANN3NrMFlQQFAK8AdqF72TH3Z3OyAjobDwldFFlqa9puGrqxkMA+7RHyavILgA5tkMbE6AqolDoC+BqofgRw5J2WiypGky1nGah+A7BJ+JGMd/0k8BGC7lnX1vZ1yI68L3jcBsBnofpFKbWeQuklTBKIVkqVAL4Hqp8AHIX2L6it1J0lY4tp0PRPLHTij3gUylKtV6xdF39Se9cm8b7RwLxWkH3m70qp7Zz8THYSopTaIeyXffLDC0qprVLqTpl4ph4RVr6vqRaE2/n+qW67j3lo2+Ck0NFojkOaFJOBfWgj8AHUsgy6MVNh0qM4nk2/AtVfEkIGBuEf/99sObvAeNc64R6pTWdFRk//bywQ0Q61D+0r3xuAP3rIchTMcRasEVbC/4RihGwhQ8r3opQSg6Qt8C3Ox4TlU3vXbwD2LW1S6Pyay89iWX4Tqt5QuzBmDj4kTK6ALOQNwuGZZ3+XyQKTdmcA8GOAn2KEMi2UxeqNQOcxtlNmP9afTJMvv/b0BuGdbrHEJsjFLNkwvJ3XCCvh0Voitogh5RsUm2I+fGsc3GAE/D/Tw5+U6iZVQJangbyK/ERt+WaxwDHMlo7FP9o2UG1jhNZPkfCKcYRmvOtPkXCMjtzv05HahureprQ8bI0NZOV74c3e4soHzJwPmBAjlPwUID3WlwIjlOlAW7/cjdv5dEInJUDTyko8jIUN5GM1oN64bSfsuzNmT0htiRGGkBrrS+m/SzwwpjgNOpIfyEvhnOGX0Mbta8+N26QYnA9It1w0CWJOmVJqx8teyNdzEYz1tfQdy437gftTAC3QLhA5t1VKVUT06rXRaFq3RcMvuO10F91sBDEklUZILZI+weAmNfPrxrz3HPLtAqlVa6/NVmhTeG38tLDGjyzwGVUEaqaOdU3H8j/72P198J7SsVKOoGLnrW2zUrRgiacTjwinhxmhTLdcvwqH8z6du/Pl0C46wNNUCMZa3wOGLsE71EHZkJJVAEJZtaG8PhfPRFT5gVKl1JmIviM+AU6hZUcpdRKWz43Hq/Zuk/w2I5Rpp+3Sy6/FMxGtlzhqa8USDyUFlrfYUjoojzDAg5RVveK6tVAnblSEJfYQ6yOBr6FLcMw1KTuKKdTnu1mC+zAfy+uTEErhGgrJomnvrwsToOOXu/f6SvsjztIosKEuKej/hRV0bFn2xqwKSO15fX8G6j6iDlSPKTgjlFmF0V557NzWp/NE9RGYFH6R+hwdHOrSkJXwCePLsjdmU0Bqz+vbKKX2iOcRlmPxwwrlH8tp76+FiZCS6jZY2P9j/7eAnAjyBKCawrXpilkUkNLy+gzQmkf4eSw/hiFlx2zRwXIF0v01mgo4e/Yz86Yhy9Mef+o5efIxlwU0CIdN/vRz0RLyCMfazUl+4N4vCJyeuDDetcby4RcAtRKyPKWV5RHAX0uGaSZXQGrP69sH6jTCSvhtDKEFslr804+URxNNCw1g5uxnH7yyhM7hn0ec1J0wqQK2xPp+xg7GE/MIx/BhzMD6pNdnpNCZGrzS/BOyTL+N7N4kYTIFpPgzvL/g+UjOzvGKhDxCM4ISdl1eQ4iFWH6+l/Qntvoa8uryherXbsy2Q55EAVtiffZw/Oy0L1CfmvyXvPeRsMBCy8MYMUITq+yQrh5rl0pjFjhKKLkXnzFjmGZ0BUyI9UnJkG7MrGHReOkI+S+DYoSBLGmLLoFjE6lb1P+TwJsTDXmH/ATgNEeYZlQFpNsDz7FYnxSKcJVHTOx0nh2WMDRGaDqWNxDY0AATZz8PBfvh0uS2E3tSJRzbAm6REOsTUDnfQ9bICisWIyxizEVgOpaHkJqw8K7Ak/sPNCeQjRVOthyPrYAhRhuxvgjanPUdwkradxk+oin8PoFjI5R1XX6rju1HARsHjaZsH5GWdtcPE7wf0H/HXNnGA3V/P6D0sshByxzdv1gzmP2SwFflZaZ0nhTe2EwHvge9oJLp+bKtWvg7DdGhhyFpVQ8PD9IA1qhDLAXqRxjLhEFr1A/SAHXIQifcs0JtDTXqxNb9CK+n1Uzv2NdvY762fFn24akrDZa5Rs131bW/AM0t6hWl0b/P34cPH/rLfYl8QB9dLWDG+8AQ3bnq0HtQQOC6lFwfUM/4/8G7WoIz/n4YokODnglha+WeXJTgZzH4RKN06nfWr+K6NWrf7a4Nl++47ozbDqxUSpVUP+V1RO1jrpVSeyI6KqU2vHGwZVvUPowBsOVHQX1+d9y/9WGuD78zj5rLD8zPwbm2PigAHJi3gr9vmIZx+LbyWDsfy4OlW1qfmfk/gX0t5v/Af40jb0sDqH1ut96g3lVvHPnsrI9N9RtSdzyWxu/ofL/KB7Xsr2Ma/JzJGEuwHTAvozv26Qz/Lfnvym0fasPL8JZuz2fs3Zw1rjtwu5O9n+tOvAtdObu5RjDV4dd9J82OOCOE6mdCjvx95fbD/Ru76/bGdeD+rQJWvDNdOWPdO32cPPqFQ2vvyKiy313+nTFbWR0dupr73luerHy47YbLDw4t4/XdkI8/pqE6NMVZsN2RWRR87YcjtFPvtrFWMLQLPXLbAvUMP+A+sfKEepafUef2BZ+O4/4q/l45PF7LvR1gwf251mLPSmJ3hiVuFqnitqXbKd0SdLdMf+WMSYKla/lbc59bj0c7BmvRbL/W0p2d8Vrrf53sAiT5iGPqiykUsAzk+BVCmRWW28b+eOLW3hF2yR/7yt8tauU7eTRiIQKrvHs4QrVBWWtpcf9Coj3qpchYK8nY4DZpCsfqWnfDRcl8beg+I7mQmGR+TrjlVZ74BUOl5cO6DNy2Qi2PDbe3LksJXJM/bF/XZV6AKJ/AmHphlE0I1c+cnnhgZ35ud41aEJbR67+lotsrNSrc+3nu9YnpXGnafv1+uO/rixadvgFg5cfG7D0OrQLCqzxYOc5Mf2Vp2b6ccZxw+9dbbjB45cjFjneF+4lX4aYMZ4+vM/gdftz/2vbrWnXLhzt+vmft9WH/noHr60VWTh/S73gnH6/NSil1GqRDY4dTMjK6IP+71oxFkRUwY1FkBcxYFFkBMxZFVsCMRZEVMGNRZAXMWBRZATMWRVbAjEWRFTBjUWQFzFgUWQEzFkVWwIxFkRUwY1H8D54fGLDDIniXAAAAAElFTkSuQmCC</content>
+    <filesize>3012</filesize>
+  </attachment>
+  <object>
+    <name>FlamingoThemes.Thatha</name>
+    <number>0</number>
+    <className>FlamingoThemesCode.ThemeClass</className>
+    <guid>f90a1c3e-1812-4fe3-9d0f-4be5a32a5d32</guid>
+    <class>
+      <name>FlamingoThemesCode.ThemeClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <body-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>body-bg</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>body-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </body-bg>
+      <brand-danger>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>brand-danger</name>
+        <number>9</number>
+        <picker>0</picker>
+        <prettyName>brand-danger</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </brand-danger>
+      <brand-info>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>brand-info</name>
+        <number>7</number>
+        <picker>0</picker>
+        <prettyName>brand-info</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </brand-info>
+      <brand-primary>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>brand-primary</name>
+        <number>5</number>
+        <picker>0</picker>
+        <prettyName>brand-primary</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </brand-primary>
+      <brand-success>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>brand-success</name>
+        <number>6</number>
+        <picker>0</picker>
+        <prettyName>brand-success</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </brand-success>
+      <brand-warning>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>brand-warning</name>
+        <number>8</number>
+        <picker>0</picker>
+        <prettyName>brand-warning</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </brand-warning>
+      <breadcrumb-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>breadcrumb-bg</name>
+        <number>47</number>
+        <picker>0</picker>
+        <prettyName>breadcrumb-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </breadcrumb-bg>
+      <breadcrumb-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>breadcrumb-color</name>
+        <number>48</number>
+        <picker>0</picker>
+        <prettyName>breadcrumb-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </breadcrumb-color>
+      <breadcrumb-separator>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>breadcrumb-separator</name>
+        <number>49</number>
+        <picker>0</picker>
+        <prettyName>breadcrumb-separator</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </breadcrumb-separator>
+      <btn-danger-bg>
+        <disabled>0</disabled>
+        <name>btn-danger-bg</name>
+        <number>55</number>
+        <prettyName>btn-danger-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-danger-bg>
+      <btn-danger-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>btn-danger-color</name>
+        <number>24</number>
+        <picker>0</picker>
+        <prettyName>btn-danger-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-danger-color>
+      <btn-default-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>btn-default-bg</name>
+        <number>19</number>
+        <picker>0</picker>
+        <prettyName>btn-default-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-default-bg>
+      <btn-default-border>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>btn-default-border</name>
+        <number>25</number>
+        <picker>0</picker>
+        <prettyName>btn-default-border</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-default-border>
+      <btn-default-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>btn-default-color</name>
+        <number>18</number>
+        <picker>0</picker>
+        <prettyName>btn-default-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-default-color>
+      <btn-font-weight>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>btn-font-weight</name>
+        <number>17</number>
+        <picker>0</picker>
+        <prettyName>btn-font-weight</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-font-weight>
+      <btn-info-bg>
+        <disabled>0</disabled>
+        <name>btn-info-bg</name>
+        <number>53</number>
+        <prettyName>btn-info-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-info-bg>
+      <btn-info-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>btn-info-color</name>
+        <number>22</number>
+        <picker>0</picker>
+        <prettyName>btn-info-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-info-color>
+      <btn-primary-bg>
+        <disabled>0</disabled>
+        <name>btn-primary-bg</name>
+        <number>51</number>
+        <prettyName>btn-primary-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-primary-bg>
+      <btn-primary-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>btn-primary-color</name>
+        <number>20</number>
+        <picker>0</picker>
+        <prettyName>btn-primary-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-primary-color>
+      <btn-success-bg>
+        <disabled>0</disabled>
+        <name>btn-success-bg</name>
+        <number>52</number>
+        <prettyName>btn-success-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-success-bg>
+      <btn-success-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>btn-success-color</name>
+        <number>21</number>
+        <picker>0</picker>
+        <prettyName>btn-success-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-success-color>
+      <btn-warning-bg>
+        <disabled>0</disabled>
+        <name>btn-warning-bg</name>
+        <number>54</number>
+        <prettyName>btn-warning-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-warning-bg>
+      <btn-warning-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>btn-warning-color</name>
+        <number>23</number>
+        <picker>0</picker>
+        <prettyName>btn-warning-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </btn-warning-color>
+      <component-active-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>component-active-bg</name>
+        <number>11</number>
+        <picker>0</picker>
+        <prettyName>component-active-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </component-active-bg>
+      <component-active-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>component-active-color</name>
+        <number>10</number>
+        <picker>0</picker>
+        <prettyName>component-active-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </component-active-color>
+      <dropdown-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>dropdown-bg</name>
+        <number>39</number>
+        <picker>0</picker>
+        <prettyName>dropdown-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </dropdown-bg>
+      <dropdown-border>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>dropdown-border</name>
+        <number>40</number>
+        <picker>0</picker>
+        <prettyName>dropdown-border</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </dropdown-border>
+      <dropdown-divider-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>dropdown-divider-bg</name>
+        <number>43</number>
+        <picker>0</picker>
+        <prettyName>dropdown-divider-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </dropdown-divider-bg>
+      <dropdown-link-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>dropdown-link-color</name>
+        <number>41</number>
+        <picker>0</picker>
+        <prettyName>dropdown-link-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </dropdown-link-color>
+      <dropdown-link-hover-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>dropdown-link-hover-bg</name>
+        <number>44</number>
+        <picker>0</picker>
+        <prettyName>dropdown-link-hover-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </dropdown-link-hover-bg>
+      <dropdown-link-hover-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>dropdown-link-hover-color</name>
+        <number>42</number>
+        <picker>0</picker>
+        <prettyName>dropdown-link-hover-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </dropdown-link-hover-color>
+      <font-family-base>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>font-family-base</name>
+        <number>12</number>
+        <picker>0</picker>
+        <prettyName>font-family-base</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </font-family-base>
+      <font-family-monospace>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>font-family-monospace</name>
+        <number>15</number>
+        <picker>0</picker>
+        <prettyName>font-family-monospace</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </font-family-monospace>
+      <font-family-sans-serif>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>font-family-sans-serif</name>
+        <number>13</number>
+        <picker>0</picker>
+        <prettyName>font-family-sans-serif</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </font-family-sans-serif>
+      <font-family-serif>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>font-family-serif</name>
+        <number>14</number>
+        <picker>0</picker>
+        <prettyName>font-family-serif</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </font-family-serif>
+      <font-size-base>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>font-size-base</name>
+        <number>16</number>
+        <picker>0</picker>
+        <prettyName>font-size-base</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </font-size-base>
+      <headings-color>
+        <disabled>0</disabled>
+        <name>headings-color</name>
+        <number>59</number>
+        <prettyName>headings-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </headings-color>
+      <input-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>input-bg</name>
+        <number>26</number>
+        <picker>0</picker>
+        <prettyName>input-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </input-bg>
+      <input-border>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>input-border</name>
+        <number>27</number>
+        <picker>0</picker>
+        <prettyName>input-border</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </input-border>
+      <input-border-focus>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>input-border-focus</name>
+        <number>29</number>
+        <picker>0</picker>
+        <prettyName>input-border-focus</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </input-border-focus>
+      <input-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>input-color</name>
+        <number>28</number>
+        <picker>0</picker>
+        <prettyName>input-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </input-color>
+      <input-color-placeholder>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>input-color-placeholder</name>
+        <number>30</number>
+        <picker>0</picker>
+        <prettyName>input-color-placeholder</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </input-color-placeholder>
+      <legend-border-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>legend-border-color</name>
+        <number>32</number>
+        <picker>0</picker>
+        <prettyName>legend-border-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </legend-border-color>
+      <legend-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>legend-color</name>
+        <number>31</number>
+        <picker>0</picker>
+        <prettyName>legend-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </legend-color>
+      <lessCode>
+        <disabled>0</disabled>
+        <name>lessCode</name>
+        <number>56</number>
+        <prettyName>lessCode</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </lessCode>
+      <link-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>link-color</name>
+        <number>4</number>
+        <picker>0</picker>
+        <prettyName>link-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </link-color>
+      <logo>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>logo</name>
+        <number>50</number>
+        <picker>0</picker>
+        <prettyName>logo</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </logo>
+      <navbar-default-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>navbar-default-bg</name>
+        <number>34</number>
+        <picker>0</picker>
+        <prettyName>navbar-default-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </navbar-default-bg>
+      <navbar-default-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>navbar-default-color</name>
+        <number>33</number>
+        <picker>0</picker>
+        <prettyName>navbar-default-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </navbar-default-color>
+      <navbar-default-link-active-bg>
+        <disabled>0</disabled>
+        <name>navbar-default-link-active-bg</name>
+        <number>58</number>
+        <prettyName>navbar-default-link-active-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </navbar-default-link-active-bg>
+      <navbar-default-link-active-color>
+        <disabled>0</disabled>
+        <name>navbar-default-link-active-color</name>
+        <number>57</number>
+        <prettyName>navbar-default-link-active-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </navbar-default-link-active-color>
+      <navbar-default-link-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>navbar-default-link-color</name>
+        <number>35</number>
+        <picker>0</picker>
+        <prettyName>navbar-default-link-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </navbar-default-link-color>
+      <navbar-default-link-hover-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>navbar-default-link-hover-bg</name>
+        <number>37</number>
+        <picker>0</picker>
+        <prettyName>navbar-default-link-hover-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </navbar-default-link-hover-bg>
+      <navbar-default-link-hover-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>navbar-default-link-hover-color</name>
+        <number>36</number>
+        <picker>0</picker>
+        <prettyName>navbar-default-link-hover-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </navbar-default-link-hover-color>
+      <navbar-height>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>navbar-height</name>
+        <number>38</number>
+        <picker>0</picker>
+        <prettyName>navbar-height</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </navbar-height>
+      <panel-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>panel-bg</name>
+        <number>45</number>
+        <picker>0</picker>
+        <prettyName>panel-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </panel-bg>
+      <panel-default-text>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>panel-default-text</name>
+        <number>46</number>
+        <picker>0</picker>
+        <prettyName>panel-default-text</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </panel-default-text>
+      <text-color>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>text-color</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>text-color</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </text-color>
+      <xwiki-page-content-bg>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>xwiki-page-content-bg</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>xwiki-page-content-bg</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </xwiki-page-content-bg>
+    </class>
+    <property>
+      <body-bg>#E8ECEF</body-bg>
+    </property>
+    <property>
+      <brand-danger>#CC3333</brand-danger>
+    </property>
+    <property>
+      <brand-info>#336699</brand-info>
+    </property>
+    <property>
+      <brand-primary>#555655</brand-primary>
+    </property>
+    <property>
+      <brand-success>#008000</brand-success>
+    </property>
+    <property>
+      <brand-warning>#D09000</brand-warning>
+    </property>
+    <property>
+      <breadcrumb-bg>#FFFFFF</breadcrumb-bg>
+    </property>
+    <property>
+      <breadcrumb-color>#333333</breadcrumb-color>
+    </property>
+    <property>
+      <breadcrumb-separator>&gt;</breadcrumb-separator>
+    </property>
+    <property>
+      <btn-danger-bg></btn-danger-bg>
+    </property>
+    <property>
+      <btn-danger-color></btn-danger-color>
+    </property>
+    <property>
+      <btn-default-bg>#d2d4d9</btn-default-bg>
+    </property>
+    <property>
+      <btn-default-border></btn-default-border>
+    </property>
+    <property>
+      <btn-default-color>#565c63</btn-default-color>
+    </property>
+    <property>
+      <btn-font-weight></btn-font-weight>
+    </property>
+    <property>
+      <btn-info-bg></btn-info-bg>
+    </property>
+    <property>
+      <btn-info-color>#FFFFFF</btn-info-color>
+    </property>
+    <property>
+      <btn-primary-bg>#88919A</btn-primary-bg>
+    </property>
+    <property>
+      <btn-primary-color>#FFFFFF</btn-primary-color>
+    </property>
+    <property>
+      <btn-success-bg>#4FC4D6</btn-success-bg>
+    </property>
+    <property>
+      <btn-success-color>#FFFFFF</btn-success-color>
+    </property>
+    <property>
+      <btn-warning-bg></btn-warning-bg>
+    </property>
+    <property>
+      <btn-warning-color></btn-warning-color>
+    </property>
+    <property>
+      <component-active-bg></component-active-bg>
+    </property>
+    <property>
+      <component-active-color></component-active-color>
+    </property>
+    <property>
+      <dropdown-bg>#FFFFFF</dropdown-bg>
+    </property>
+    <property>
+      <dropdown-border>#FFFFFF</dropdown-border>
+    </property>
+    <property>
+      <dropdown-divider-bg></dropdown-divider-bg>
+    </property>
+    <property>
+      <dropdown-link-color>#333333</dropdown-link-color>
+    </property>
+    <property>
+      <dropdown-link-hover-bg>#ECECEC</dropdown-link-hover-bg>
+    </property>
+    <property>
+      <dropdown-link-hover-color>#333333</dropdown-link-hover-color>
+    </property>
+    <property>
+      <font-family-base></font-family-base>
+    </property>
+    <property>
+      <font-family-monospace></font-family-monospace>
+    </property>
+    <property>
+      <font-family-sans-serif></font-family-sans-serif>
+    </property>
+    <property>
+      <font-family-serif></font-family-serif>
+    </property>
+    <property>
+      <font-size-base></font-size-base>
+    </property>
+    <property>
+      <headings-color></headings-color>
+    </property>
+    <property>
+      <input-bg></input-bg>
+    </property>
+    <property>
+      <input-border></input-border>
+    </property>
+    <property>
+      <input-border-focus></input-border-focus>
+    </property>
+    <property>
+      <input-color></input-color>
+    </property>
+    <property>
+      <input-color-placeholder></input-color-placeholder>
+    </property>
+    <property>
+      <legend-border-color></legend-border-color>
+    </property>
+    <property>
+      <legend-color></legend-color>
+    </property>
+    <property>
+      <lessCode>/*&#xd;
+========================&#xd;
+= Theme color name: Thatha&#xd;
+= version: 1.0&#xd;
+= Creator: Kebir Yacine &#xd;
+= Email: kebir.ya@gmail.com&#xd;
+========================&#xd;
+*/&#xd;
+&#xd;
+&#xd;
+// Font&#xd;
+@import url(//fonts.googleapis.com/css?family=Titillium+Web:400,200,300,200italic,300italic,400italic,600,600italic,700,700italic,900);&#xd;
+@import url(//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic);&#xd;
+&#xd;
+// Global&#xd;
+body, body *{&#xd;
+font-family: 'Ubuntu', sans-serif;&#xd;
+}&#xd;
+h1,h2,h3,h4,h5,h6,h1 *,h2 *,h3 *,h4 *,h5 *,h6 *{&#xd;
+font-family: 'Titillium Web', sans-serif;&#xd;
+}&#xd;
+&#xd;
+// mixins customization &#xd;
+/* panel app */&#xd;
+@link-panel-hover:#FFFFFF;&#xd;
+/* gadget */&#xd;
+@light-border:1px solid #F5F5F5;&#xd;
+@h-border:1px solid #cccccc;&#xd;
+@gadget-bg:#F5F5F5;&#xd;
+@gadget-bg2:#FFFFFF;&#xd;
+@gadget-padding:15px;&#xd;
+@gadget-margin:15px;&#xd;
+@padd-right-column:7px;&#xd;
+@padd-left-column:7px;&#xd;
+@gadget-radius:5px;&#xd;
+/* gadgets and panels shadow */&#xd;
+@gadget-shadow:none;&#xd;
+/* livetable */&#xd;
+@th-livetable-border:2px solid #999;&#xd;
+@th-livetable-bg:#FFFFFF;&#xd;
+@td-livetable-border:1px solid #ccc;&#xd;
+@td-livetable-padd-btm:10px;&#xd;
+/* Footer */&#xd;
+@border-footer:3px solid @navbar-default-bg;&#xd;
+@footer-bg:#2C3E51;&#xd;
+&#xd;
+&#xd;
+// Global container ============================================================&#xd;
+#xwikimaincontainerinner {&#xd;
+  padding-top: 50px;&#xd;
+  position: relative;&#xd;
+}&#xd;
+div .gadget-container .gadget, div form#newBlogPost,div .applicationsPanel > li > a, div .applicationPanelMoreContainer ul li > span > a,div .nav-pills > li > a, div .applicationPanelMoreContainer ul li > span > a, div div.applicationPanelMoreContainer ul.nav.nav-pills.nav-stacked, div a.button, div ul.dropdown-menu, div .form-control, div textarea, div select, div input[type="text"], div input[type="password"], .buttonwrapper input.secondary, .buttonwrapper button.secondary, .buttonwrapper a.secondary, a.secondary, input.button, .buttonwrapper button, .buttonwrapper a,input.button:hover, .buttonwrapper button:hover, .buttonwrapper a:hover,.buttonwrapper input.secondary:hover, .buttonwrapper button.secondary:hover, .buttonwrapper a.secondary:hover, a.secondary:hover, .buttonwrapper input.secondary:focus, .buttonwrapper button.secondary:focus, .buttonwrapper a.secondary:focus, a.secondary:focus {&#xd;
+  border-radius: 0;&#xd;
+  -moz-border-radius: 0;&#xd;
+  -webkit-border-radius: 0;&#xd;
+  -ms-border-radius: 0;&#xd;
+  border:0;&#xd;
+}&#xd;
+div .applicationsPanel > li > a, div .applicationPanelMoreContainer ul li > span > a {&#xd;
+  max-width: 100%; &#xd;
+}&#xd;
+form.navbar-form.navbar-left.globalsearch>div {&#xd;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25) ;&#xd;
+  width: auto;&#xd;
+}&#xd;
+#body.panel-left-width-Small div#leftPanels {&#xd;
+  padding: 0;&#xd;
+}&#xd;
+input#headerglobalsearchinput {&#xd;
+  background: transparent;&#xd;
+  color: @navbar-default-link-color;&#xd;
+  padding: 0;&#xd;
+  box-shadow: none;&#xd;
+  -moz-box-shadow: none;&#xd;
+  -webkit-box-shadow: none;&#xd;
+  -ms-box-shadow: none;&#xd;
+}&#xd;
+.globalsearch button.btn.btn-primary {&#xd;
+  background: none;&#xd;
+}&#xd;
+input#headerglobalsearchinput::-webkit-input-placeholder {&#xd;
+   color: @navbar-default-link-color;&#xd;
+}&#xd;
+input#headerglobalsearchinput:-moz-placeholder { /* Firefox 18- */&#xd;
+   color: @navbar-default-link-color;  &#xd;
+}&#xd;
+input#headerglobalsearchinput::-moz-placeholder {  /* Firefox 19+ */&#xd;
+   color: @navbar-default-link-color;  &#xd;
+}&#xd;
+input#headerglobalsearchinput:-ms-input-placeholder {  &#xd;
+   color: @navbar-default-link-color;  &#xd;
+}&#xd;
+#body.content.panel-left-width-Small.panel-right-width-Medium .main {&#xd;
+  box-shadow: 0px 0 3px rgba(0, 0, 0, 0.2);&#xd;
+}&#xd;
+div.box, div.plainmessage, div fieldset.xwikimessage, .box.infomessage {&#xd;
+  border-radius: 0;&#xd;
+  -moz-border-radius: 0;&#xd;
+  -webkit-border-radius: 0;&#xd;
+  -ms-border-radius: 0;&#xd;
+  box-shadow: none;&#xd;
+  -moz-box-shadow: none;&#xd;
+  -webkit-box-shadow: none;&#xd;
+  -ms-box-shadow: none;&#xd;
+  border: none;&#xd;
+}&#xd;
+span.LV_validation_message {&#xd;
+  display: inline-block;&#xd;
+}&#xd;
+a.welcome-edit.btn.btn-default.btn-xs {&#xd;
+  background: none;&#xd;
+}&#xd;
+span.activitySnapshot img {&#xd;
+  box-shadow: none;&#xd;
+}&#xd;
+span.activitySnapshot .activityActionAvatar {&#xd;
+  border-radius: 0;&#xd;
+  box-shadow: none;&#xd;
+}&#xd;
+ul.xlist li.xunderline {&#xd;
+  border-bottom: dotted 1px #E8E8E8 !important;&#xd;
+}&#xd;
+ul.xlist li.space{&#xd;
+    padding: 10px;&#xd;
+}&#xd;
+li#spSpaceCreateItem,ul.xlist li.space {&#xd;
+  background-image: none;&#xd;
+}&#xd;
+ul.xlist li.space .spSpaceName a::before {&#xd;
+  content: "\f07c ";&#xd;
+  display: inline-block;&#xd;
+  font: normal normal normal 14px/1 FontAwesome;&#xd;
+  font-size: inherit;&#xd;
+  text-rendering: auto;&#xd;
+  -webkit-font-smoothing: antialiased;&#xd;
+  -moz-osx-font-smoothing: grayscale;&#xd;
+  transform: translate(0,0);&#xd;
+  margin-left: -40px;&#xd;
+  margin-right: 7px;&#xd;
+}&#xd;
+.main * {&#xd;
+  transition: 500ms;&#xd;
+}&#xd;
+// Menu ============================================================&#xd;
+#menuview {&#xd;
+  position: fixed;&#xd;
+  width: 100%;&#xd;
+  z-index: 999;&#xd;
+  top: 0;&#xd;
+}&#xd;
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {&#xd;
+  background-color: transparent;&#xd;
+  color: #fff;&#xd;
+  border: 0 ;&#xd;
+}&#xd;
+nav.navbar-default .navbar-toggle {&#xd;
+  border-color: transparent ;&#xd;
+  .icon-bar {&#xd;
+  background-color: #FFF;&#xd;
+  }&#xd;
+}&#xd;
+// Breadcrumb ==================================================================&#xd;
+ol#hierarchy {&#xd;
+  padding: 8px;&#xd;
+  border-radius: 0;&#xd;
+  -moz-border-radius: 0;&#xd;
+  -webkit-border-radius: 0;&#xd;
+  -ms-border-radius: 0;&#xd;
+  border: none;&#xd;
+  background: #F5F5F5;&#xd;
+}&#xd;
+&#xd;
+// Home - gadget ===============================================================&#xd;
+h1.gadget-title {&#xd;
+  margin-top: 0;&#xd;
+  padding-bottom: 10px;&#xd;
+  border-bottom: @body-bg 3px solid;&#xd;
+  padding: 10px;&#xd;
+}&#xd;
+.gadget-container .gadget,form#newBlogPost{&#xd;
+  padding: @gadget-padding;&#xd;
+  margin-bottom: @gadget-margin;&#xd;
+  box-shadow:@gadget-shadow;&#xd;
+  -moz-box-shadow:@gadget-shadow;&#xd;
+  -webkit-box-shadow:@gadget-shadow;&#xd;
+  border-radius: @gadget-radius;&#xd;
+  -webkit-border-radius: @gadget-radius;&#xd;
+  -moz-border-radius: @gadget-radius;&#xd;
+  border:none;&#xd;
+}&#xd;
+.gadget-content input#entryTitle {&#xd;
+  max-width: 49%;&#xd;
+}&#xd;
+#inline .gadget-container .gadget{&#xd;
+  padding:0;&#xd;
+  -moz-box-shadow:none;&#xd;
+  -webkit-box-shadow:none;&#xd;
+}&#xd;
+form#newBlogPost {&#xd;
+  background-color: @gadget-bg;&#xd;
+}&#xd;
+.gadget-container .gadget {&#xd;
+  border: 0;&#xd;
+  background: #FFF;&#xd;
+  padding: 0;&#xd;
+}&#xd;
+.gadget-container .gadget, form#newBlogPost {&#xd;
+  margin-bottom: 25px;&#xd;
+}&#xd;
+.gadget-content {&#xd;
+  border-bottom: 1px solid #E8ECEF;&#xd;
+  padding-bottom: 10px;&#xd;
+}&#xd;
+div.container-columns .column{&#xd;
+  padding-right:@padd-right-column;&#xd;
+  padding-left: @padd-left-column;&#xd;
+}&#xd;
+.gadget form#newBlogPost {&#xd;
+  background: @gadget-bg2;&#xd;
+}&#xd;
+&#xd;
+// Livetable ============================================================&#xd;
+body table.xwiki-livetable table.xwiki-livetable-display thead.xwiki-livetable-display-header {&#xd;
+  border-bottom:@th-livetable-border;&#xd;
+}&#xd;
+body table.xwiki-livetable tbody.xwiki-livetable-display-body td{&#xd;
+  border-bottom: @td-livetable-border;&#xd;
+}&#xd;
+body table.xwiki-livetable th.xwiki-livetable-display-header-text {&#xd;
+  background-color: @th-livetable-bg;&#xd;
+  border: none;&#xd;
+  border-top: @td-livetable-border !important;&#xd;
+  font-weight: bold;&#xd;
+}&#xd;
+table.xwiki-livetable th.xwiki-livetable-display-header-text * {&#xd;
+  font-weight: bold;&#xd;
+}&#xd;
+table.xwiki-livetable td.xwiki-livetable-display-header-filter {&#xd;
+  padding-bottom: @td-livetable-padd-btm !important;&#xd;
+}&#xd;
+body.skin-flamingo .xwiki-livetable-display-header tr th.xwiki-livetable-display-header-text{&#xd;
+  background-color: @th-livetable-bg;&#xd;
+}&#xd;
+&#xd;
+// Panels ============================================================&#xd;
+.applicationsPanel>li>a >.application-label{&#xd;
+  font-size: 0.9em;&#xd;
+}&#xd;
+.applicationsPanel>li>a{&#xd;
+  color:@navbar-default-bg;&#xd;
+}&#xd;
+.applicationsPanel>li>a:hover,.applicationsPanel>li>a:focus{&#xd;
+  background-color:@navbar-default-bg;&#xd;
+  color:@link-panel-hover;&#xd;
+}&#xd;
+div.panel-width-Small .application-img {&#xd;
+  font-size: 32px;&#xd;
+  margin-bottom: 3px;&#xd;
+}&#xd;
+ul.applicationsPanelMoreList {&#xd;
+  margin-top: 0;&#xd;
+}&#xd;
+.applicationsPanel>li {&#xd;
+  margin: 0 0 10px;&#xd;
+}&#xd;
+div.applicationPanelMoreContainer ul.nav.nav-pills.nav-stacked {&#xd;
+  margin-top: 10;&#xd;
+  border-radius: 5%;&#xd;
+  -moz-border-radius: 5%;&#xd;
+  -webkit-border-radius: 5%;&#xd;
+  -ms-border-radius: 5%;&#xd;
+  overflow: hidden;&#xd;
+}&#xd;
+.applicationsPanel>li>a, .applicationPanelMoreContainer ul li>span>a {&#xd;
+  border-radius: @gadget-radius;&#xd;
+  -moz-border-radius: @gadget-radius;&#xd;
+  -webkit-border-radius: @gadget-radius;&#xd;
+  min-height: 60px;&#xd;
+  max-width: 80px;&#xd;
+  line-height: 1em;&#xd;
+  margin: 0 auto;&#xd;
+  display: block;&#xd;
+}&#xd;
+ul.navbar-nav>.dropdown-split>.dropdown-split-left:after, ul.navbar-nav>.dropdown-split>.dropdown-split-left:hover:after {&#xd;
+  background-color: lighten(@navbar-default-bg, 5%);&#xd;
+}&#xd;
+div.panel{&#xd;
+  box-shadow:@gadget-shadow;&#xd;
+  -moz-box-shadow:@gadget-shadow;&#xd;
+  -webkit-box-shadow:@gadget-shadow;&#xd;
+  border-radius: 0;&#xd;
+  -moz-border-radius: 0;&#xd;
+  -webkit-border-radius: 0;&#xd;
+  -ms-border-radius: 0;&#xd;
+}&#xd;
+.space-Dashboard a[title="Dashboard"]{&#xd;
+  background-color: @navbar-default-bg ;&#xd;
+  color:@navbar-default-link-color;&#xd;
+}&#xd;
+.panel-width-Small .applicationsPanel li {&#xd;
+  margin: 1px 0 0;&#xd;
+}&#xd;
+div#leftPanels .applicationPanelMoreContainer ul.nav.nav-pills.nav-stacked {&#xd;
+  background: darken(@body-bg, 10%);&#xd;
+}&#xd;
+div.vertical-menu ul li .group:first-child, div .vertical-menu ul li ul li:last-child {&#xd;
+  border-radius: 0;&#xd;
+  -moz-border-radius: 0;&#xd;
+  -webkit-border-radius: 0;&#xd;
+  -ms-border-radius: 0;&#xd;
+}&#xd;
+.vertical-menu.admin-menu {&#xd;
+  margin: 0;&#xd;
+  border: 0;&#xd;
+  ul li ul li {&#xd;
+  border: 0;&#xd;
+  }&#xd;
+}&#xd;
+// Buttons ================================================================&#xd;
+.btn-gradient(@color) {&#xd;
+  #gradient > .vertical-three-colors(lighten(@color, 0%), @color, 0%, darken(@color, 0%));&#xd;
+}&#xd;
+.btn-border(@color) {&#xd;
+  box-shadow: none;&#xd;
+  -moz-box-shadow: none;&#xd;
+  -webkit-box-shadow: none;&#xd;
+  -ms-box-shadow: none;&#xd;
+}&#xd;
+.globalsearch .btn, .globalsearch .btn:hover, .globalsearch .btn:focus{&#xd;
+  border:none;&#xd;
+}&#xd;
+div .btn,  div .btn:hover, input.button, input.button:hover,.navbar-form .input-group > .form-control {&#xd;
+  border-radius: 0;&#xd;
+  -moz-border-radius: 0;&#xd;
+  -webkit-border-radius: 0;&#xd;
+  -ms-border-radius: 0;&#xd;
+  border: 0 !important;&#xd;
+}&#xd;
+&#xd;
+// Footer =================================================================&#xd;
+#footerglobal{&#xd;
+  border-bottom: @border-footer;&#xd;
+  background-color:darken(@btn-success-bg, 4%);&#xd;
+  padding: 40px 0;&#xd;
+  box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;&#xd;
+  -moz-box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;&#xd;
+  -webkit-box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;&#xd;
+  -ms-box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;&#xd;
+}&#xd;
+// comment =================================================================&#xd;
+div#docextrapanes {&#xd;
+  background: #F5F5F5;&#xd;
+  padding: 20px;&#xd;
+  margin-bottom: 15px;&#xd;
+}&#xd;
+div#docExtraTabs {&#xd;
+  background: transparent;&#xd;
+}&#xd;
+.xwikitabbar > li.active > a, .xwikitabbar > li.active > a:hover, .xwikitabbar > li.active > a:focus {&#xd;
+  color: @btn-success-bg;&#xd;
+  border: 0;&#xd;
+  border-bottom-color: transparent;&#xd;
+  font-weight: bold;&#xd;
+}&#xd;
+.xwikitabbar {&#xd;
+  border-bottom: 3px solid @btn-success-bg;&#xd;
+}&#xd;
+.xwikitabbar > li > a:hover {&#xd;
+  border-color: transparent;&#xd;
+  background-color: @btn-success-bg;&#xd;
+  border-radius: 0;&#xd;
+  -moz-border-radius: 0;&#xd;
+  -webkit-border-radius: 0;&#xd;
+  -ms-border-radius: 0;&#xd;
+  color: @btn-success-color;&#xd;
+}&#xd;
+.btn-group.commenttools>a {&#xd;
+  background: none;&#xd;
+}&#xd;
+div .progress-info .progress {&#xd;
+  background-color: @btn-success-bg;&#xd;
+}&#xd;
+div .progress-info .progress-container {&#xd;
+  border: none;&#xd;
+}&#xd;
+div .upload-status {&#xd;
+  background: transparent none 2px .8em no-repeat;&#xd;
+}&#xd;
+a.btn.btn-default.btn-xs.deletelink {&#xd;
+  background: transparent;&#xd;
+  color: rgb(189, 12, 12);&#xd;
+}&#xd;
+.attachment {&#xd;
+  border-bottom: 1px dotted #ccc;&#xd;
+}&#xd;
+// complements ============================================================ &#xd;
+div.xdialog-screen{&#xd;
+background-color: @btn-success-bg;&#xd;
+}&#xd;
+.xdialog-box.xdialog-box-confirmation {&#xd;
+  border: none;&#xd;
+  box-shadow: none;&#xd;
+  -moz-box-shadow: none;&#xd;
+  -webkit-box-shadow: none;&#xd;
+  -ms-box-shadow: none;&#xd;
+}&#xd;
+// Forms ============================================================&#xd;
+.xform input[type="text"], .xform input[type="password"], .xform select, .xform textarea {&#xd;
+  width: 100%;&#xd;
+  border: none;&#xd;
+  border-bottom: 1px solid rgba(51, 72, 95, 0.20) !important;&#xd;
+}&#xd;
+textarea, select, input[type="text"], input[type="password"] {&#xd;
+  background: #F9F9F9;&#xd;
+  box-shadow: none;&#xd;
+  border: none;&#xd;
+  border-bottom: 1px solid rgba(51, 72, 95, 0.20) !important;&#xd;
+}&#xd;
+textarea:focus, select:focus, input[type="text"]:focus, input[type="password"]:focus {&#xd;
+  box-shadow:none;&#xd;
+}&#xd;
+// Admin ============================================================&#xd;
+div.panel-heading {&#xd;
+  border-radius: 0;&#xd;
+}&#xd;
+div ul.xlist li.space {&#xd;
+  background-image: none;&#xd;
+}&#xd;
+.space-AppWithinMinutes .wizard-help {&#xd;
+  width: 100%;&#xd;
+}&#xd;
+.space-AppWithinMinutes .wizard-body {&#xd;
+  margin-right: 0;&#xd;
+  clear: both;&#xd;
+  width: 100%;&#xd;
+}&#xd;
+// Mobile view ============================================================&#xd;
+@media (max-width: @screen-xs-max) {&#xd;
+div.container-columns .column {&#xd;
+  .clearfix();&#xd;
+  width:100%;&#xd;
+}&#xd;
+td.xwiki-livetable-display-header-filter {&#xd;
+  border-top: @td-livetable-border !important;&#xd;
+}&#xd;
+body table.xwiki-livetable table.xwiki-livetable-display thead.xwiki-livetable-display-header, table th {&#xd;
+  border-bottom: none;&#xd;
+}&#xd;
+div.search-results-left {&#xd;
+  margin: 10px 0 0;&#xd;
+  clear: both;&#xd;
+}&#xd;
+div.search-facets {&#xd;
+  box-shadow: none;&#xd;
+  float: none;&#xd;
+  margin-bottom: 10px;&#xd;
+  max-width: 100%;&#xd;
+  width: 100%;&#xd;
+  border-radius: 0;&#xd;
+}&#xd;
+.search-results-sort li:first-of-type {&#xd;
+  padding: 0 0 5px;&#xd;
+  width: 100%;&#xd;
+  display: block;&#xd;
+}&#xd;
+ul.search-results-sort li {&#xd;
+  padding-left: 0;&#xd;
+  padding-right: 10px;&#xd;
+}&#xd;
+form.navbar-form.navbar-left.globalsearch {&#xd;
+  border: 0;&#xd;
+  box-shadow: none;&#xd;
+}&#xd;
+body#body.panel-left-width-Small div#leftPanels {&#xd;
+  padding: 0 15px;&#xd;
+}&#xd;
+body#body.panel-left-width-Small div#leftPanels .applicationPanelMoreContainer li{&#xd;
+  clear: both;&#xd;
+  width:100%;&#xd;
+}&#xd;
+}&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</lessCode>
+    </property>
+    <property>
+      <link-color>#09637C</link-color>
+    </property>
+    <property>
+      <logo>logo.png</logo>
+    </property>
+    <property>
+      <navbar-default-bg>#33485F</navbar-default-bg>
+    </property>
+    <property>
+      <navbar-default-color>#FFFFFF</navbar-default-color>
+    </property>
+    <property>
+      <navbar-default-link-active-bg>lighten(@navbar-default-bg, 3%)</navbar-default-link-active-bg>
+    </property>
+    <property>
+      <navbar-default-link-active-color>#FFFFFF</navbar-default-link-active-color>
+    </property>
+    <property>
+      <navbar-default-link-color>#FFFFFF</navbar-default-link-color>
+    </property>
+    <property>
+      <navbar-default-link-hover-bg>lighten(@navbar-default-bg, 3%)</navbar-default-link-hover-bg>
+    </property>
+    <property>
+      <navbar-default-link-hover-color>#FFFFFF</navbar-default-link-hover-color>
+    </property>
+    <property>
+      <navbar-height></navbar-height>
+    </property>
+    <property>
+      <panel-bg>#FFFFFF</panel-bg>
+    </property>
+    <property>
+      <panel-default-text>#333333</panel-default-text>
+    </property>
+    <property>
+      <text-color>#333333</text-color>
+    </property>
+    <property>
+      <xwiki-page-content-bg>#FFFFFF</xwiki-page-content-bg>
+    </property>
+  </object>
+</xwikidoc>
