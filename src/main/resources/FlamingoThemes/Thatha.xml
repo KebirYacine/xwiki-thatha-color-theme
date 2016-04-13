@@ -931,496 +931,503 @@
       <legend-color></legend-color>
     </property>
     <property>
-      <lessCode>/*&#xd;
-========================&#xd;
-= Theme color name: Thatha&#xd;
-= version: 1.0&#xd;
-= Creator: Kebir Yacine &#xd;
-= Email: kebir.ya@gmail.com&#xd;
-========================&#xd;
-*/&#xd;
-&#xd;
-&#xd;
-// Font&#xd;
-@import url(//fonts.googleapis.com/css?family=Titillium+Web:400,200,300,200italic,300italic,400italic,600,600italic,700,700italic,900);&#xd;
-@import url(//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic);&#xd;
-&#xd;
-// Global&#xd;
-body, body *{&#xd;
-font-family: 'Ubuntu', sans-serif;&#xd;
-}&#xd;
-h1,h2,h3,h4,h5,h6,h1 *,h2 *,h3 *,h4 *,h5 *,h6 *{&#xd;
-font-family: 'Titillium Web', sans-serif;&#xd;
-}&#xd;
-&#xd;
-// mixins customization &#xd;
-/* panel app */&#xd;
-@link-panel-hover:#FFFFFF;&#xd;
-/* gadget */&#xd;
-@light-border:1px solid #F5F5F5;&#xd;
-@h-border:1px solid #cccccc;&#xd;
-@gadget-bg:#F5F5F5;&#xd;
-@gadget-bg2:#FFFFFF;&#xd;
-@gadget-padding:15px;&#xd;
-@gadget-margin:15px;&#xd;
-@padd-right-column:7px;&#xd;
-@padd-left-column:7px;&#xd;
-@gadget-radius:5px;&#xd;
-/* gadgets and panels shadow */&#xd;
-@gadget-shadow:none;&#xd;
-/* livetable */&#xd;
-@th-livetable-border:2px solid #999;&#xd;
-@th-livetable-bg:#FFFFFF;&#xd;
-@td-livetable-border:1px solid #ccc;&#xd;
-@td-livetable-padd-btm:10px;&#xd;
-/* Footer */&#xd;
-@border-footer:3px solid @navbar-default-bg;&#xd;
-@footer-bg:#2C3E51;&#xd;
-&#xd;
-&#xd;
-// Global container ============================================================&#xd;
-#xwikimaincontainerinner {&#xd;
-  padding-top: 50px;&#xd;
-  position: relative;&#xd;
-}&#xd;
-div .gadget-container .gadget, div form#newBlogPost,div .applicationsPanel > li > a, div .applicationPanelMoreContainer ul li > span > a,div .nav-pills > li > a, div .applicationPanelMoreContainer ul li > span > a, div div.applicationPanelMoreContainer ul.nav.nav-pills.nav-stacked, div a.button, div ul.dropdown-menu, div .form-control, div textarea, div select, div input[type="text"], div input[type="password"], .buttonwrapper input.secondary, .buttonwrapper button.secondary, .buttonwrapper a.secondary, a.secondary, input.button, .buttonwrapper button, .buttonwrapper a,input.button:hover, .buttonwrapper button:hover, .buttonwrapper a:hover,.buttonwrapper input.secondary:hover, .buttonwrapper button.secondary:hover, .buttonwrapper a.secondary:hover, a.secondary:hover, .buttonwrapper input.secondary:focus, .buttonwrapper button.secondary:focus, .buttonwrapper a.secondary:focus, a.secondary:focus {&#xd;
-  border-radius: 0;&#xd;
-  -moz-border-radius: 0;&#xd;
-  -webkit-border-radius: 0;&#xd;
-  -ms-border-radius: 0;&#xd;
-  border:0;&#xd;
-}&#xd;
-div .applicationsPanel > li > a, div .applicationPanelMoreContainer ul li > span > a {&#xd;
-  max-width: 100%; &#xd;
-}&#xd;
-form.navbar-form.navbar-left.globalsearch>div {&#xd;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25) ;&#xd;
-  width: auto;&#xd;
-}&#xd;
-#body.panel-left-width-Small div#leftPanels {&#xd;
-  padding: 0;&#xd;
-}&#xd;
-input#headerglobalsearchinput {&#xd;
-  background: transparent;&#xd;
-  color: @navbar-default-link-color;&#xd;
-  padding: 0;&#xd;
-  box-shadow: none;&#xd;
-  -moz-box-shadow: none;&#xd;
-  -webkit-box-shadow: none;&#xd;
-  -ms-box-shadow: none;&#xd;
-}&#xd;
-.globalsearch button.btn.btn-primary {&#xd;
-  background: none;&#xd;
-}&#xd;
-input#headerglobalsearchinput::-webkit-input-placeholder {&#xd;
-   color: @navbar-default-link-color;&#xd;
-}&#xd;
-input#headerglobalsearchinput:-moz-placeholder { /* Firefox 18- */&#xd;
-   color: @navbar-default-link-color;  &#xd;
-}&#xd;
-input#headerglobalsearchinput::-moz-placeholder {  /* Firefox 19+ */&#xd;
-   color: @navbar-default-link-color;  &#xd;
-}&#xd;
-input#headerglobalsearchinput:-ms-input-placeholder {  &#xd;
-   color: @navbar-default-link-color;  &#xd;
-}&#xd;
-#body.content.panel-left-width-Small.panel-right-width-Medium .main {&#xd;
-  box-shadow: 0px 0 3px rgba(0, 0, 0, 0.2);&#xd;
-}&#xd;
-div.box, div.plainmessage, div fieldset.xwikimessage, .box.infomessage {&#xd;
-  border-radius: 0;&#xd;
-  -moz-border-radius: 0;&#xd;
-  -webkit-border-radius: 0;&#xd;
-  -ms-border-radius: 0;&#xd;
-  box-shadow: none;&#xd;
-  -moz-box-shadow: none;&#xd;
-  -webkit-box-shadow: none;&#xd;
-  -ms-box-shadow: none;&#xd;
-  border: none;&#xd;
-}&#xd;
-span.LV_validation_message {&#xd;
-  display: inline-block;&#xd;
-}&#xd;
-a.welcome-edit.btn.btn-default.btn-xs {&#xd;
-  background: none;&#xd;
-}&#xd;
-span.activitySnapshot img {&#xd;
-  box-shadow: none;&#xd;
-}&#xd;
-span.activitySnapshot .activityActionAvatar {&#xd;
-  border-radius: 0;&#xd;
-  box-shadow: none;&#xd;
-}&#xd;
-ul.xlist li.xunderline {&#xd;
-  border-bottom: dotted 1px #E8E8E8 !important;&#xd;
-}&#xd;
-ul.xlist li.space{&#xd;
-    padding: 10px;&#xd;
-}&#xd;
-li#spSpaceCreateItem,ul.xlist li.space {&#xd;
-  background-image: none;&#xd;
-}&#xd;
-ul.xlist li.space .spSpaceName a::before {&#xd;
-  content: "\f07c ";&#xd;
-  display: inline-block;&#xd;
-  font: normal normal normal 14px/1 FontAwesome;&#xd;
-  font-size: inherit;&#xd;
-  text-rendering: auto;&#xd;
-  -webkit-font-smoothing: antialiased;&#xd;
-  -moz-osx-font-smoothing: grayscale;&#xd;
-  transform: translate(0,0);&#xd;
-  margin-left: -40px;&#xd;
-  margin-right: 7px;&#xd;
-}&#xd;
-.main * {&#xd;
-  transition: 500ms;&#xd;
-}&#xd;
-// Menu ============================================================&#xd;
-#menuview {&#xd;
-  position: fixed;&#xd;
-  width: 100%;&#xd;
-  z-index: 999;&#xd;
-  top: 0;&#xd;
-}&#xd;
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {&#xd;
-  background-color: transparent;&#xd;
-  color: #fff;&#xd;
-  border: 0 ;&#xd;
-}&#xd;
-nav.navbar-default .navbar-toggle {&#xd;
-  border-color: transparent ;&#xd;
-  .icon-bar {&#xd;
-  background-color: #FFF;&#xd;
-  }&#xd;
-}&#xd;
-// Breadcrumb ==================================================================&#xd;
-ol#hierarchy {&#xd;
-  padding: 8px;&#xd;
-  border-radius: 0;&#xd;
-  -moz-border-radius: 0;&#xd;
-  -webkit-border-radius: 0;&#xd;
-  -ms-border-radius: 0;&#xd;
-  border: none;&#xd;
-  background: #F5F5F5;&#xd;
-}&#xd;
-&#xd;
-// Home - gadget ===============================================================&#xd;
-h1.gadget-title {&#xd;
-  margin-top: 0;&#xd;
-  padding-bottom: 10px;&#xd;
-  border-bottom: @body-bg 3px solid;&#xd;
-  padding: 10px;&#xd;
-}&#xd;
-.gadget-container .gadget,form#newBlogPost{&#xd;
-  padding: @gadget-padding;&#xd;
-  margin-bottom: @gadget-margin;&#xd;
-  box-shadow:@gadget-shadow;&#xd;
-  -moz-box-shadow:@gadget-shadow;&#xd;
-  -webkit-box-shadow:@gadget-shadow;&#xd;
-  border-radius: @gadget-radius;&#xd;
-  -webkit-border-radius: @gadget-radius;&#xd;
-  -moz-border-radius: @gadget-radius;&#xd;
-  border:none;&#xd;
-}&#xd;
-.gadget-content input#entryTitle {&#xd;
-  max-width: 49%;&#xd;
-}&#xd;
-#inline .gadget-container .gadget{&#xd;
-  padding:0;&#xd;
-  -moz-box-shadow:none;&#xd;
-  -webkit-box-shadow:none;&#xd;
-}&#xd;
-form#newBlogPost {&#xd;
-  background-color: @gadget-bg;&#xd;
-}&#xd;
-.gadget-container .gadget {&#xd;
-  border: 0;&#xd;
-  background: #FFF;&#xd;
-  padding: 0;&#xd;
-}&#xd;
-.gadget-container .gadget, form#newBlogPost {&#xd;
-  margin-bottom: 25px;&#xd;
-}&#xd;
-.gadget-content {&#xd;
-  border-bottom: 1px solid #E8ECEF;&#xd;
-  padding-bottom: 10px;&#xd;
-}&#xd;
-div.container-columns .column{&#xd;
-  padding-right:@padd-right-column;&#xd;
-  padding-left: @padd-left-column;&#xd;
-}&#xd;
-.gadget form#newBlogPost {&#xd;
-  background: @gadget-bg2;&#xd;
-}&#xd;
-&#xd;
-// Livetable ============================================================&#xd;
-body table.xwiki-livetable table.xwiki-livetable-display thead.xwiki-livetable-display-header {&#xd;
-  border-bottom:@th-livetable-border;&#xd;
-}&#xd;
-body table.xwiki-livetable tbody.xwiki-livetable-display-body td{&#xd;
-  border-bottom: @td-livetable-border;&#xd;
-}&#xd;
-body table.xwiki-livetable th.xwiki-livetable-display-header-text {&#xd;
-  background-color: @th-livetable-bg;&#xd;
-  border: none;&#xd;
-  border-top: @td-livetable-border !important;&#xd;
-  font-weight: bold;&#xd;
-}&#xd;
-table.xwiki-livetable th.xwiki-livetable-display-header-text * {&#xd;
-  font-weight: bold;&#xd;
-}&#xd;
-table.xwiki-livetable td.xwiki-livetable-display-header-filter {&#xd;
-  padding-bottom: @td-livetable-padd-btm !important;&#xd;
-}&#xd;
-body.skin-flamingo .xwiki-livetable-display-header tr th.xwiki-livetable-display-header-text{&#xd;
-  background-color: @th-livetable-bg;&#xd;
-}&#xd;
-&#xd;
-// Panels ============================================================&#xd;
-.applicationsPanel>li>a >.application-label{&#xd;
-  font-size: 0.9em;&#xd;
-}&#xd;
-.applicationsPanel>li>a{&#xd;
-  color:@navbar-default-bg;&#xd;
-}&#xd;
-.applicationsPanel>li>a:hover,.applicationsPanel>li>a:focus{&#xd;
-  background-color:@navbar-default-bg;&#xd;
-  color:@link-panel-hover;&#xd;
-}&#xd;
-div.panel-width-Small .application-img {&#xd;
-  font-size: 32px;&#xd;
-  margin-bottom: 3px;&#xd;
-}&#xd;
-ul.applicationsPanelMoreList {&#xd;
-  margin-top: 0;&#xd;
-}&#xd;
-.applicationsPanel>li {&#xd;
-  margin: 0 0 10px;&#xd;
-}&#xd;
-div.applicationPanelMoreContainer ul.nav.nav-pills.nav-stacked {&#xd;
-  margin-top: 10;&#xd;
-  border-radius: 5%;&#xd;
-  -moz-border-radius: 5%;&#xd;
-  -webkit-border-radius: 5%;&#xd;
-  -ms-border-radius: 5%;&#xd;
-  overflow: hidden;&#xd;
-}&#xd;
-.applicationsPanel>li>a, .applicationPanelMoreContainer ul li>span>a {&#xd;
-  border-radius: @gadget-radius;&#xd;
-  -moz-border-radius: @gadget-radius;&#xd;
-  -webkit-border-radius: @gadget-radius;&#xd;
-  min-height: 60px;&#xd;
-  max-width: 80px;&#xd;
-  line-height: 1em;&#xd;
-  margin: 0 auto;&#xd;
-  display: block;&#xd;
-}&#xd;
-ul.navbar-nav>.dropdown-split>.dropdown-split-left:after, ul.navbar-nav>.dropdown-split>.dropdown-split-left:hover:after {&#xd;
-  background-color: lighten(@navbar-default-bg, 5%);&#xd;
-}&#xd;
-div.panel{&#xd;
-  box-shadow:@gadget-shadow;&#xd;
-  -moz-box-shadow:@gadget-shadow;&#xd;
-  -webkit-box-shadow:@gadget-shadow;&#xd;
-  border-radius: 0;&#xd;
-  -moz-border-radius: 0;&#xd;
-  -webkit-border-radius: 0;&#xd;
-  -ms-border-radius: 0;&#xd;
-}&#xd;
-.space-Dashboard a[title="Dashboard"]{&#xd;
-  background-color: @navbar-default-bg ;&#xd;
-  color:@navbar-default-link-color;&#xd;
-}&#xd;
-.panel-width-Small .applicationsPanel li {&#xd;
-  margin: 1px 0 0;&#xd;
-}&#xd;
-div#leftPanels .applicationPanelMoreContainer ul.nav.nav-pills.nav-stacked {&#xd;
-  background: darken(@body-bg, 10%);&#xd;
-}&#xd;
-div.vertical-menu ul li .group:first-child, div .vertical-menu ul li ul li:last-child {&#xd;
-  border-radius: 0;&#xd;
-  -moz-border-radius: 0;&#xd;
-  -webkit-border-radius: 0;&#xd;
-  -ms-border-radius: 0;&#xd;
-}&#xd;
-.vertical-menu.admin-menu {&#xd;
-  margin: 0;&#xd;
-  border: 0;&#xd;
-  ul li ul li {&#xd;
-  border: 0;&#xd;
-  }&#xd;
-}&#xd;
-// Buttons ================================================================&#xd;
-.btn-gradient(@color) {&#xd;
-  #gradient > .vertical-three-colors(lighten(@color, 0%), @color, 0%, darken(@color, 0%));&#xd;
-}&#xd;
-.btn-border(@color) {&#xd;
-  box-shadow: none;&#xd;
-  -moz-box-shadow: none;&#xd;
-  -webkit-box-shadow: none;&#xd;
-  -ms-box-shadow: none;&#xd;
-}&#xd;
-.globalsearch .btn, .globalsearch .btn:hover, .globalsearch .btn:focus{&#xd;
-  border:none;&#xd;
-}&#xd;
-div .btn,  div .btn:hover, input.button, input.button:hover,.navbar-form .input-group > .form-control {&#xd;
-  border-radius: 0;&#xd;
-  -moz-border-radius: 0;&#xd;
-  -webkit-border-radius: 0;&#xd;
-  -ms-border-radius: 0;&#xd;
-  border: 0 !important;&#xd;
-}&#xd;
-&#xd;
-// Footer =================================================================&#xd;
-#footerglobal{&#xd;
-  border-bottom: @border-footer;&#xd;
-  background-color:darken(@btn-success-bg, 4%);&#xd;
-  padding: 40px 0;&#xd;
-  box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;&#xd;
-  -moz-box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;&#xd;
-  -webkit-box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;&#xd;
-  -ms-box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;&#xd;
-}&#xd;
-// comment =================================================================&#xd;
-div#docextrapanes {&#xd;
-  background: #F5F5F5;&#xd;
-  padding: 20px;&#xd;
-  margin-bottom: 15px;&#xd;
-}&#xd;
-div#docExtraTabs {&#xd;
-  background: transparent;&#xd;
-}&#xd;
-.xwikitabbar > li.active > a, .xwikitabbar > li.active > a:hover, .xwikitabbar > li.active > a:focus {&#xd;
-  color: @btn-success-bg;&#xd;
-  border: 0;&#xd;
-  border-bottom-color: transparent;&#xd;
-  font-weight: bold;&#xd;
-}&#xd;
-.xwikitabbar {&#xd;
-  border-bottom: 3px solid @btn-success-bg;&#xd;
-}&#xd;
-.xwikitabbar > li > a:hover {&#xd;
-  border-color: transparent;&#xd;
-  background-color: @btn-success-bg;&#xd;
-  border-radius: 0;&#xd;
-  -moz-border-radius: 0;&#xd;
-  -webkit-border-radius: 0;&#xd;
-  -ms-border-radius: 0;&#xd;
-  color: @btn-success-color;&#xd;
-}&#xd;
-.btn-group.commenttools>a {&#xd;
-  background: none;&#xd;
-}&#xd;
-div .progress-info .progress {&#xd;
-  background-color: @btn-success-bg;&#xd;
-}&#xd;
-div .progress-info .progress-container {&#xd;
-  border: none;&#xd;
-}&#xd;
-div .upload-status {&#xd;
-  background: transparent none 2px .8em no-repeat;&#xd;
-}&#xd;
-a.btn.btn-default.btn-xs.deletelink {&#xd;
-  background: transparent;&#xd;
-  color: rgb(189, 12, 12);&#xd;
-}&#xd;
-.attachment {&#xd;
-  border-bottom: 1px dotted #ccc;&#xd;
-}&#xd;
-// complements ============================================================ &#xd;
-div.xdialog-screen{&#xd;
-background-color: @btn-success-bg;&#xd;
-}&#xd;
-.xdialog-box.xdialog-box-confirmation {&#xd;
-  border: none;&#xd;
-  box-shadow: none;&#xd;
-  -moz-box-shadow: none;&#xd;
-  -webkit-box-shadow: none;&#xd;
-  -ms-box-shadow: none;&#xd;
-}&#xd;
-// Forms ============================================================&#xd;
-.xform input[type="text"], .xform input[type="password"], .xform select, .xform textarea {&#xd;
-  width: 100%;&#xd;
-  border: none;&#xd;
-  border-bottom: 1px solid rgba(51, 72, 95, 0.20) !important;&#xd;
-}&#xd;
-textarea, select, input[type="text"], input[type="password"] {&#xd;
-  background: #F9F9F9;&#xd;
-  box-shadow: none;&#xd;
-  border: none;&#xd;
-  border-bottom: 1px solid rgba(51, 72, 95, 0.20) !important;&#xd;
-}&#xd;
-textarea:focus, select:focus, input[type="text"]:focus, input[type="password"]:focus {&#xd;
-  box-shadow:none;&#xd;
-}&#xd;
-// Admin ============================================================&#xd;
-div.panel-heading {&#xd;
-  border-radius: 0;&#xd;
-}&#xd;
-div ul.xlist li.space {&#xd;
-  background-image: none;&#xd;
-}&#xd;
-.space-AppWithinMinutes .wizard-help {&#xd;
-  width: 100%;&#xd;
-}&#xd;
-.space-AppWithinMinutes .wizard-body {&#xd;
-  margin-right: 0;&#xd;
-  clear: both;&#xd;
-  width: 100%;&#xd;
-}&#xd;
-// Mobile view ============================================================&#xd;
-@media (max-width: @screen-xs-max) {&#xd;
-div.container-columns .column {&#xd;
-  .clearfix();&#xd;
-  width:100%;&#xd;
-}&#xd;
-td.xwiki-livetable-display-header-filter {&#xd;
-  border-top: @td-livetable-border !important;&#xd;
-}&#xd;
-body table.xwiki-livetable table.xwiki-livetable-display thead.xwiki-livetable-display-header, table th {&#xd;
-  border-bottom: none;&#xd;
-}&#xd;
-div.search-results-left {&#xd;
-  margin: 10px 0 0;&#xd;
-  clear: both;&#xd;
-}&#xd;
-div.search-facets {&#xd;
-  box-shadow: none;&#xd;
-  float: none;&#xd;
-  margin-bottom: 10px;&#xd;
-  max-width: 100%;&#xd;
-  width: 100%;&#xd;
-  border-radius: 0;&#xd;
-}&#xd;
-.search-results-sort li:first-of-type {&#xd;
-  padding: 0 0 5px;&#xd;
-  width: 100%;&#xd;
-  display: block;&#xd;
-}&#xd;
-ul.search-results-sort li {&#xd;
-  padding-left: 0;&#xd;
-  padding-right: 10px;&#xd;
-}&#xd;
-form.navbar-form.navbar-left.globalsearch {&#xd;
-  border: 0;&#xd;
-  box-shadow: none;&#xd;
-}&#xd;
-body#body.panel-left-width-Small div#leftPanels {&#xd;
-  padding: 0 15px;&#xd;
-}&#xd;
-body#body.panel-left-width-Small div#leftPanels .applicationPanelMoreContainer li{&#xd;
-  clear: both;&#xd;
-  width:100%;&#xd;
-}&#xd;
-}&#xd;
-&#xd;
-&#xd;
-&#xd;
-&#xd;
-&#xd;
-&#xd;
-&#xd;
-&#xd;
+      <lessCode>/*
+========================
+= Theme color name: Thatha
+= version: 1.0
+= Creator: Kebir Yacine 
+= Email: kebir.ya@gmail.com
+========================
+*/
+
+
+// Font
+@import url(//fonts.googleapis.com/css?family=Titillium+Web:400,200,300,200italic,300italic,400italic,600,600italic,700,700italic,900);
+@import url(//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic);
+
+// Global
+body, body *{
+font-family: 'Ubuntu', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,h1 *,h2 *,h3 *,h4 *,h5 *,h6 *{
+font-family: 'Titillium Web', sans-serif;
+}
+
+// mixins customization 
+/* panel app */
+@link-panel-hover:#FFFFFF;
+/* gadget */
+@light-border:1px solid #F5F5F5;
+@h-border:1px solid #cccccc;
+@gadget-bg:#F5F5F5;
+@gadget-bg2:#FFFFFF;
+@gadget-padding:15px;
+@gadget-margin:15px;
+@padd-right-column:7px;
+@padd-left-column:7px;
+@gadget-radius:5px;
+/* gadgets and panels shadow */
+@gadget-shadow:none;
+/* livetable */
+@th-livetable-border:2px solid #999;
+@th-livetable-bg:#FFFFFF;
+@td-livetable-border:1px solid #ccc;
+@td-livetable-padd-btm:10px;
+/* Footer */
+@border-footer:3px solid @navbar-default-bg;
+@footer-bg:#2C3E51;
+
+
+// Global container ============================================================
+#xwikimaincontainerinner {
+  padding-top: 50px;
+  position: relative;
+}
+div .gadget-container .gadget, div form#newBlogPost,div .applicationsPanel > li > a, div .applicationPanelMoreContainer ul li > span > a,div .nav-pills > li > a, div .applicationPanelMoreContainer ul li > span > a, div div.applicationPanelMoreContainer ul.nav.nav-pills.nav-stacked, div a.button, div ul.dropdown-menu, div .form-control, div textarea, div select, div input[type="text"], div input[type="password"], .buttonwrapper input.secondary, .buttonwrapper button.secondary, .buttonwrapper a.secondary, a.secondary, input.button, .buttonwrapper button, .buttonwrapper a,input.button:hover, .buttonwrapper button:hover, .buttonwrapper a:hover,.buttonwrapper input.secondary:hover, .buttonwrapper button.secondary:hover, .buttonwrapper a.secondary:hover, a.secondary:hover, .buttonwrapper input.secondary:focus, .buttonwrapper button.secondary:focus, .buttonwrapper a.secondary:focus, a.secondary:focus {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border:0;
+}
+div .applicationsPanel > li > a, div .applicationPanelMoreContainer ul li > span > a {
+  max-width: 100%; 
+}
+form.navbar-form.navbar-left.globalsearch>div {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25) ;
+  width: auto;
+}
+#body.panel-left-width-Small div#leftPanels {
+  padding: 0;
+}
+input#headerglobalsearchinput {
+  background: transparent;
+  color: @navbar-default-link-color;
+  padding: 0;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+}
+.globalsearch button.btn.btn-primary {
+  background: none;
+}
+input#headerglobalsearchinput::-webkit-input-placeholder {
+   color: @navbar-default-link-color;
+}
+input#headerglobalsearchinput:-moz-placeholder { /* Firefox 18- */
+   color: @navbar-default-link-color;  
+}
+input#headerglobalsearchinput::-moz-placeholder {  /* Firefox 19+ */
+   color: @navbar-default-link-color;  
+}
+input#headerglobalsearchinput:-ms-input-placeholder {  
+   color: @navbar-default-link-color;  
+}
+#body.content.panel-left-width-Small.panel-right-width-Medium .main {
+  box-shadow: 0px 0 3px rgba(0, 0, 0, 0.2);
+}
+div.box, div.plainmessage, div fieldset.xwikimessage, .box.infomessage {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+  border: none;
+}
+span.LV_validation_message {
+  display: inline-block;
+}
+a.welcome-edit.btn.btn-default.btn-xs {
+  background: none;
+}
+span.activitySnapshot{ 
+  img {
+    box-shadow: none;
+  }
+  .activityActionAvatar {
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+ul.xlist li{
+  &amp;.xunderline {
+      border-bottom: dotted 1px #E8E8E8 !important;
+  }
+  &amp;.space{
+      padding: 10px;
+      background-image: none;
+      .spSpaceName a::before {
+          content: "\f07c ";
+          display: inline-block;
+          font: normal normal normal 14px/1 FontAwesome;
+          font-size: inherit;
+          text-rendering: auto;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          transform: translate(0,0);
+          margin-left: -40px;
+          margin-right: 7px;
+      }
+  }
+}
+li#spSpaceCreateItem {
+  background-image: none;
+}
+.main * {
+  transition: 500ms;
+}
+// Menu ============================================================
+#menuview {
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  top: 0;
+}
+.navbar-default .navbar-toggle{
+  &amp;:hover, &amp;:focus {
+    background-color: transparent;
+    color: #fff;
+    border: 0 ;
+  }
+  border-color: transparent ;
+  .icon-bar {
+  background-color: #FFF;
+  }
+}
+// Breadcrumb ==================================================================
+ol#hierarchy {
+  padding: 8px;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border: none;
+  background: #F5F5F5;
+}
+// Modal ===============================================================
+.modal {
+    z-index: 99999;
+}
+// Home - gadget ===============================================================
+h1.gadget-title {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: @body-bg 3px solid;
+  padding: 10px;
+}
+.gadget-container {
+  .gadget,form#newBlogPost{
+    padding: @gadget-padding;
+    margin-bottom: @gadget-margin;
+    box-shadow:@gadget-shadow;
+    -moz-box-shadow:@gadget-shadow;
+    -webkit-box-shadow:@gadget-shadow;
+    border-radius: @gadget-radius;
+    -webkit-border-radius: @gadget-radius;
+    -moz-border-radius: @gadget-radius;
+    border:none;
+  }
+  .gadget {
+    border: 0;
+    background: #FFF;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+}
+.gadget-content input#entryTitle {
+  max-width: 49%;
+}
+#inline .gadget-container .gadget{
+  padding:0;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+form#newBlogPost {
+  background-color: @gadget-bg;
+  margin-bottom: 25px;
+}
+.gadget-content {
+  border-bottom: 1px solid #E8ECEF;
+  padding-bottom: 10px;
+}
+div.container-columns .column{
+  padding-right:@padd-right-column;
+  padding-left: @padd-left-column;
+}
+.gadget form#newBlogPost {
+  background: @gadget-bg2;
+}
+
+// Livetable ============================================================
+body table.xwiki-livetable {
+  table.xwiki-livetable-display thead.xwiki-livetable-display-header {
+    border-bottom:@th-livetable-border;
+  }
+  tbody.xwiki-livetable-display-body td{
+    border-bottom: @td-livetable-border;
+    &amp;.xwiki-livetable-display-header-filter {
+      padding-bottom: @td-livetable-padd-btm !important;
+    }
+  }
+  th.xwiki-livetable-display-header-text {
+    background-color: @th-livetable-bg;
+    border: none;
+    border-top: @td-livetable-border !important;
+    font-weight: bold;
+  }
+  * {
+    font-weight: bold;
+  }
+}
+body.skin-flamingo .xwiki-livetable-display-header tr th.xwiki-livetable-display-header-text{
+  background-color: @th-livetable-bg;
+}
+
+// Panels ============================================================
+.applicationsPanel>li{
+  margin: 0 0 10px;
+  &amp;&gt;a{
+    color:@navbar-default-bg;
+    &amp;:hover, &amp;:focus{
+      background-color:@navbar-default-bg;
+      color:@link-panel-hover;
+      }
+      .application-label{
+        font-size: 0.9em;
+      }
+   }
+   &amp;&gt;a, &amp;&gt;span>a {
+      border-radius: @gadget-radius;
+      -moz-border-radius: @gadget-radius;
+      -webkit-border-radius: @gadget-radius;
+      min-height: 60px;
+      max-width: 80px;
+      line-height: 1em;
+      margin: 0 auto;
+      display: block;
+   }
+}
+div.panel-width-Small .application-img {
+  font-size: 32px;
+  margin-bottom: 3px;
+}
+ul.applicationsPanelMoreList {
+  margin-top: 0;
+}
+div.applicationPanelMoreContainer ul.nav.nav-pills.nav-stacked {
+  margin-top: 10;
+  border-radius: 5%;
+  -moz-border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -ms-border-radius: 5%;
+  overflow: hidden;
+}
+ul.navbar-nav>.dropdown-split>.dropdown-split-left:after, ul.navbar-nav>.dropdown-split>.dropdown-split-left:hover:after {
+  background-color: lighten(@navbar-default-bg, 5%);
+}
+div.panel{
+  box-shadow:@gadget-shadow;
+  -moz-box-shadow:@gadget-shadow;
+  -webkit-box-shadow:@gadget-shadow;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+}
+.space-Dashboard a[title="Dashboard"]{
+  background-color: @navbar-default-bg ;
+  color:@navbar-default-link-color;
+}
+.panel-width-Small .applicationsPanel li {
+  margin: 1px 0 0;
+}
+div#leftPanels .applicationPanelMoreContainer ul.nav.nav-pills.nav-stacked {
+  background: darken(@body-bg, 10%);
+}
+div.vertical-menu ul li .group:first-child, div .vertical-menu ul li ul li:last-child {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+}
+.vertical-menu.admin-menu {
+  margin: 0;
+  border: 0;
+  ul li ul li {
+  border: 0;
+  }
+}
+// Buttons ================================================================
+.btn-gradient(@color) {
+  #gradient > .vertical-three-colors(lighten(@color, 0%), @color, 0%, darken(@color, 0%));
+}
+.btn-border(@color) {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+}
+.globalsearch .btn, .globalsearch .btn:hover, .globalsearch .btn:focus{
+  border:none;
+}
+div .btn,  div .btn:hover, input.button, input.button:hover,.navbar-form .input-group > .form-control {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border: 0 !important;
+}
+
+// Footer =================================================================
+#footerglobal{
+  border-bottom: @border-footer;
+  background-color:darken(@btn-success-bg, 4%);
+  padding: 40px 0;
+  box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;
+  -moz-box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;
+  -webkit-box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;
+  -ms-box-shadow: 0px -90px 0px darken(@navbar-default-bg, 10%) inset;
+}
+// comment =================================================================
+div#docextrapanes {
+  background: #F5F5F5;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+div#docExtraTabs {
+  background: transparent;
+}
+.xwikitabbar > li.active > a, .xwikitabbar > li.active > a:hover, .xwikitabbar > li.active > a:focus {
+  color: @btn-success-bg;
+  border: 0;
+  border-bottom-color: transparent;
+  font-weight: bold;
+}
+.xwikitabbar {
+   border-bottom: 3px solid @btn-success-bg;
+   li > a:hover {
+    border-color: transparent;
+    background-color: @btn-success-bg;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    color: @btn-success-color;
+  }
+}
+.btn-group.commenttools>a {
+  background: none;
+}
+div .progress-info {
+  .progress {
+    background-color: @btn-success-bg;
+  }
+  .progress-container {
+    border: none;
+  }
+}
+div .upload-status {
+  background: transparent none 2px .8em no-repeat;
+}
+a.btn.btn-default.btn-xs.deletelink {
+  background: transparent;
+  color: rgb(189, 12, 12);
+}
+.attachment {
+  border-bottom: 1px dotted #ccc;
+}
+// complements ============================================================ 
+div.xdialog-screen{
+background-color: @btn-success-bg;
+}
+.xdialog-box.xdialog-box-confirmation {
+  border: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+}
+// Forms ============================================================
+.xform input[type="text"], .xform input[type="password"], .xform select, .xform textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(51, 72, 95, 0.20) !important;
+}
+textarea, select, input[type="text"], input[type="password"] {
+  background: #F9F9F9;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid rgba(51, 72, 95, 0.20) !important;
+}
+textarea:focus, select:focus, input[type="text"]:focus, input[type="password"]:focus {
+  box-shadow:none;
+}
+// Admin ============================================================
+div.panel-heading {
+  border-radius: 0;
+}
+div ul.xlist li.space {
+  background-image: none;
+}
+.space-AppWithinMinutes {
+  .wizard-help {
+    width: 100%;
+  }
+  .wizard-body {
+    margin-right: 0;
+    clear: both;
+    width: 100%;
+  }
+}
+// Mobile view ============================================================
+@media (max-width: @screen-xs-max) {
+div.container-columns .column {
+  .clearfix();
+  width:100%;
+}
+td.xwiki-livetable-display-header-filter {
+  border-top: @td-livetable-border !important;
+}
+body table.xwiki-livetable table.xwiki-livetable-display thead.xwiki-livetable-display-header, table th {
+  border-bottom: none;
+}
+div.search-results-left {
+  margin: 10px 0 0;
+  clear: both;
+}
+div.search-facets {
+  box-shadow: none;
+  float: none;
+  margin-bottom: 10px;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 0;
+}
+ul.search-results-sort li {
+  padding-left: 0;
+  padding-right: 10px;
+  &amp;:first-of-type {
+    padding: 0 0 5px;
+    width: 100%;
+    display: block;
+  }
+}
+form.navbar-form.navbar-left.globalsearch {
+  border: 0;
+  box-shadow: none;
+}
+body#body.panel-left-width-Small div#leftPanels {
+  padding: 0 15px;
+  .applicationPanelMoreContainer li{
+    clear: both;
+    width:100%;
+  }
+}
+}
 </lessCode>
     </property>
     <property>
